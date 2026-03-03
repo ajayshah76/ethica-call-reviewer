@@ -82,7 +82,7 @@ const CALLS_DATA = [
 
 [John]: No, yeah, you don't have to type anything. The thing that happens in the beginning is that you have the option to either click on the link that they send you, so it's the RPA, so you can follow along, so you can see the boxes and everything. So if you do see a misspelling in your dad's name right then and there, then you can say, "No, it's actually this," because you're looking at it as she's doing it live.
 
-[Patrick]: Yeah. I did not see the actual RPA document until it had generated it. I was in maybe your field software, you know? I could see the fields and I could see it filling them in, and I'm sure I could have edited there, but I was really pressing hard on the voice part. Like when it misspelled my dad's name, I thought, "Well, that's kinda cool, 'cause then let's see how it corrects it." And it did. But I never saw it on the contract until it was generated, and then once it was generated I couldn't... It said edit the document, but when I did that, it didn't open a new window, but still I couldn't mark the document. Even though it said edit the document, once I clicked it, I still couldn't edit it.
+[Patrick]: Yeah. I did not see the actual RPA document until it had generated it. I was in maybe your field software, you know? I could see the fields and I could see it filling them in, and I'm sure I could have edited there, but I was really pressing hard on the voice part. Like when it misspelled my dad's name, I thought, "Well, that's kinda cool, 'cause then let's see how it corrects it." And it did. But I never saw it on the contract until it was generated, and then once it was generated I couldn't... It said edit the document, but when I did that, it didn't appear that I could edit it.
 
 [John]: Yeah, you shouldn't have to click anything. It should just be done by voice. So I'll check that out and I'll go through your transcript again. So what was the most frustrating part?
 
@@ -786,5 +786,88 @@ And then I got to the end of the prompts, and then it said, "Okay, we're gonna g
 So I think what's gonna happen is we're gonna have the toggle on, toggle off type of — it'll know who you are and be smarter and say, you know the contract, and it knows what you've done before, and pre-populate those things, and you can probably get it done in four minutes. And then you'll have the newer agent that wants the guide, and it'll be 90 questions long, and it'll take them a half hour. So we're gonna have to kind of do both, and everything in between.
 
 [Erin]: Yeah. I mean, I think, yeah, for a new agent that's probably actually really helpful. For someone like me, I just wanna get in there and know exactly where I have to go, what I have to change, and I just get it done. The only application of this for me in its current form, assuming that it's made to be accurate — the only application for me that I could think of is it's a super busy Saturday, and I'm out with like four different clients, and I leave one and they wanna write an offer and I'm heading to the next one, and I'm driving, and this'll bust out a purchase contract for me while I'm on the road.`
+  },
+  {
+    id: "call-debra",
+    title: "Call with Debra Ferrier",
+    audioFile: "https://files.catbox.moe/fdkuxi.m4a",
+    duration: "5:08",
+    durationSec: 308,
+    participants: ["John (Ethica)", "Debra Ferrier (Agent)"],
+    sentiment: "very-positive",
+    sentimentLabel: "Very Positive",
+    summary: "Debra Ferrier had a very positive beta testing experience with Ethica's voice-driven RPA tool. She reported no hiccups during use and found the process easy and intuitive. She noted that vendor drop-downs in certain RPA clauses weren't yet supported, but understood it was still in development. Debra was notably comfortable speaking naturally to the AI — John observed she was the most relaxed beta tester so far. She found the link-based workflow (receiving the offer form via text) to be smooth and easy to follow. John mentioned that the biggest challenge across testers is that agents tend to speak robotically to the AI rather than conversationally, but said if that's the biggest hurdle, it's a great sign. Debra expressed genuine excitement about the product's potential and believes agents will love it once they get used to the new technology. John also noted that RPA field mapping to the PDF is still being improved and told Debra not to worry about verifying that yet.",
+    highlights: [
+      { type: "positive", text: "Debra reported no hiccups during beta testing and found the process very easy to use." },
+      { type: "positive", text: "Debra was the most relaxed and natural tester — she spoke to the AI conversationally as if it were a person." },
+      { type: "positive", text: "Debra found the link/text-based workflow for receiving and reviewing the offer form to be smooth and intuitive." },
+      { type: "positive", text: "Debra expressed genuine excitement about the product: 'I liked it from concept... I think the agents are gonna love it.'" },
+      { type: "issue", text: "Vendor drop-downs in certain RPA clauses are not yet supported — Debra noticed this but was told by Laura it's still in development." },
+      { type: "insight", text: "The biggest obstacle across beta testers is that agents don't know how to talk to AI naturally — they give robotic one-word answers instead of speaking conversationally." },
+      { type: "insight", text: "Debra noted that agents are hesitant about new technology and tend to stick with what they've always done — training and time will help adoption." },
+      { type: "insight", text: "The AI's bidirectional listening capability (hearing the user even while speaking) was highlighted as a key differentiator." },
+      { type: "suggestion", text: "More fields and data need to be covered by the tool — Debra noted an agent won't remember everything, suggesting the tool should prompt for more items." },
+      { type: "quote", text: "'I can't imagine why it's difficult, to be honest with you.' — Debra, on why other agents struggle talking to AI" }
+    ],
+    keyPoints: [
+      "No hiccups encountered during Debra's beta test — the process was smooth and easy",
+      "Vendor drop-down fields in RPA clauses are not yet implemented but are on the roadmap",
+      "Auto-population of fields (seller name, listing agent, APN) via MLS Connect or tax records is planned",
+      "Debra was the most natural and comfortable tester — spoke to AI conversationally",
+      "Most agents are speaking robotically to the AI; biggest adoption hurdle is comfort level, not functionality",
+      "The AI supports bidirectional listening — it can hear the user even while it's speaking",
+      "RPA-to-PDF field mapping is actively being improved this week; testers told not to verify it yet",
+      "SPF (Standards & Practices Forum) meeting happening that day; Ethica presenting the next day",
+      "Debra excited about the product and confident agents will love it once they adjust to the new technology"
+    ],
+    transcript: `[John (Ethica)]: Perfect. Yeah, I'm just curious, how did it go?
+
+[Debra Ferrier]: So I think it went really well. I figured it probably would. Very easy to do. I didn't find any hiccups, by the way. But I did notice that there were... it didn't prompt me on vendors. In our RPA, in a couple of the clauses we have vendors, right? We have drop-down vendors.
+
+[John (Ethica)]: Sure.
+
+[Debra Ferrier]: So, but I talked to Laura, and Laura said, "Oh, they're not there yet." I said, "Okay."
+
+[John (Ethica)]: Yeah. There's a lot of it coming, that's for sure. But that's a great reminder, for sure. So we appreciate that.
+
+[Debra Ferrier]: Yeah. So other than that, I'm fine. I didn't see anything... I didn't find any hiccups. There's more that I think that it has to cover, because I don't think an agent will remember all those things. But other than that—
+
+[John (Ethica)]: For sure. Well, just to let you know what the plan is. A lot of that will be automatedly populated, but right now it's in a beta test, so we're asking those questions. But like, we'll use either MLS Connect or tax records or a title company. We're not sure how we're gonna do it, but the APN, the seller's name and the listing agent and all that — we can definitely populate all that first.
+
+[Debra Ferrier]: Sure.
+
+[John (Ethica)]: But yeah, we're getting there. So what was your take on the link? When the link is sent to you, does that feel like a fluid process to you?
+
+[Debra Ferrier]: Yes. When they text me back with the offer? Yeah, I think it's fine. I think an agent can follow it really carefully, and if there's something missing, you could just, like she said, just talk to her. So you can go back and say, "Oh, can I change this?" or put this in. And there is a way to follow it by text if they need to do that also.
+
+[John (Ethica)]: Yeah, for sure. They can also type right on that form if they want to, but obviously the voice is trying to keep them hands-free and making it more efficient. We are finding that's probably... I'm sorry?
+
+[Debra Ferrier]: I didn't try the typing at all, so I can't speak to that. I just talked.
+
+[John (Ethica)]: Yeah, not too many people are, which tells us that we're on the right track. I think people wanna be able to multitask with this. But the biggest obstacle we're finding is that people just don't know how to talk to AI yet. You were probably the most relaxed with it, which was great, in the sense that you just answered questions and talked as if she was a person.
+
+[Debra Ferrier]: I can't imagine why it's difficult, to be honest with you.
+
+[John (Ethica)]: They're talking very robotically. They'll only give like one word answers, and we just gotta get them a little more comfortable. She can listen bidirectionally, so as you're talking over her, she can still hear you. Not like humans.
+
+[Debra Ferrier]: Yeah. Very cool. It makes sense. Look, it's new technology, so a lot of people, especially agents, are comfortable doing what they've always done, and so when something new comes, they're hesitant about how much and how they handle whatever it is. Like you said, it just takes training. It's not that hard.
+
+[John (Ethica)]: Yeah. I think they'll get used to it for sure, and we have some ideas to help them. But if that's our biggest hurdle, that's fantastic.
+
+[Debra Ferrier]: Yeah, for sure. No, I liked it. I liked it from concept, to be honest with you. I'm excited about it. I think it's gonna be great. I think the agents are gonna love it. It's just new technology to get used to.
+
+[John (Ethica)]: Definitely. Well, I'm glad your experience was so positive. The RPA that it sends you — just know we're working on the mapping of the fields, so no need to try to make sure each field came over onto the RPA, the PDF. We're working on that and improving that this week. We added a bunch of fields this week as well.
+
+[Debra Ferrier]: Yeah. Laura told me you weren't done with that, so I didn't even look at that part.
+
+[John (Ethica)]: That's perfect. Just didn't want you to waste time mapping it. I'm telling the agents that as well. But we're working on that for sure.
+
+[Debra Ferrier]: Oh, good. Well, they meet today, SPF meets today, and you guys come tomorrow, so we'll see how it goes.
+
+[John (Ethica)]: Yeah. Fantastic. Well, thank you so much for your time. I appreciate your feedback.
+
+[Debra Ferrier]: You're welcome. Sounds good. Bye-bye.
+
+[John (Ethica)]: Thank you. Bye-bye.`
   }
 ];
