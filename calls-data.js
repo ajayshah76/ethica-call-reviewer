@@ -2,7 +2,7 @@ const CALLS_DATA = [
   {
     id: "call-patrick",
     title: "Call with Patrick",
-    audioFile: "./Call-Recording.m4a",
+    audioFile: "https://files.catbox.moe/qh6ezo.m4a",
     duration: "14:16",
     durationSec: 856,
     participants: ["John (Ethica)", "Patrick (Agent)", "Jeff (Ethica Product)"],
@@ -82,7 +82,7 @@ const CALLS_DATA = [
 
 [John]: No, yeah, you don't have to type anything. The thing that happens in the beginning is that you have the option to either click on the link that they send you, so it's the RPA, so you can follow along, so you can see the boxes and everything. So if you do see a misspelling in your dad's name right then and there, then you can say, "No, it's actually this," because you're looking at it as she's doing it live.
 
-[Patrick]: Yeah. I did not see the actual RPA document until it had generated it. I was in maybe your field software, you know? I could see the fields and I could see it filling them in, and I'm sure I could have edited there, but I was really pressing hard on the voice part. Like when it misspelled my dad's name, I thought, "Well, that's kinda cool, 'cause then let's see how it corrects it." And it did. But I never saw it on the contract until it was generated, and then once it was generated I couldn't... It said edit the document, but when I did that, it didn't appear that I could edit it.
+[Patrick]: Yeah. I did not see the actual RPA document until it had generated it. I was in maybe your field software, you know? I could see the fields and I could see it filling them in, and I'm sure I could have edited there, but I was really pressing hard on the voice part. Like when it misspelled my dad's name, I thought, "Well, that's kinda cool, 'cause then let's see how it corrects it." And it did. But I never saw it on the contract until it was generated, and then once it was generated I couldn't... It said edit the document, but when I did that, it didn't open a new window, but still I couldn't mark the document. Even though it said edit the document, once I clicked it, I still couldn't edit it.
 
 [John]: Yeah, you shouldn't have to click anything. It should just be done by voice. So I'll check that out and I'll go through your transcript again. So what was the most frustrating part?
 
@@ -137,7 +137,7 @@ const CALLS_DATA = [
   {
     id: "call-damon",
     title: "Call with Damon Knox",
-    audioFile: "./Call-with-Damon-Knox.m4a",
+    audioFile: "https://files.catbox.moe/tzwnq6.m4a",
     duration: "11:00",
     durationSec: 660,
     participants: ["Jeff (Ethica)", "Damon Knox (Agent)"],
@@ -228,7 +228,7 @@ const CALLS_DATA = [
   {
     id: "call-nancy",
     title: "Call with Nancy",
-    audioFile: "./HubSpot-Call-352244199152.m4a",
+    audioFile: "https://files.catbox.moe/2wewj0.m4a",
     duration: "11:34",
     durationSec: 694,
     participants: ["John (Ethica)", "Nancy (Agent)"],
@@ -344,7 +344,7 @@ const CALLS_DATA = [
   {
     id: "call-michael",
     title: "Call with Michael",
-    audioFile: "./HubSpot-Call-349611799280.m4a",
+    audioFile: "https://files.catbox.moe/3l3i3k.m4a",
     duration: "2:30",
     durationSec: 150,
     participants: ["John (Ethica)", "Michael (Agent)"],
@@ -422,7 +422,7 @@ const CALLS_DATA = [
   {
     id: "call-spencer",
     title: "Call with Spencer",
-    audioFile: "./HubSpot-Call-349611961027-1.m4a",
+    audioFile: "https://files.catbox.moe/6p04w6.m4a",
     duration: "12:40",
     durationSec: 760,
     participants: ["John (Ethica)", "Spencer (Agent / Compliance Expert)"],
@@ -539,7 +539,7 @@ Those are really my notes. So now you just saved me time. I don't have to write 
   {
     id: "call-mike",
     title: "Call with Mike Vachani",
-    audioFile: "./Call-with-Mike-Vachani.m4a",
+    audioFile: "https://files.catbox.moe/t0iuyw.m4a",
     duration: "14:13",
     durationSec: 853,
     participants: ["John (Ethica)", "Mike Vachani (Agent)"],
@@ -653,7 +653,7 @@ But if I'm driving, and you do this, and I'm back home, I come back and it's all
   {
     id: "call-erin-2",
     title: "Call with Erin Stumpf (Part 2)",
-    audioFile: "./Call-with-Erin-Stumpf-Part-2.m4a",
+    audioFile: "https://files.catbox.moe/bd5scu.m4a",
     duration: "2:53",
     durationSec: 173,
     participants: ["John (Ethica)", "Erin Stumpf (Agent)"],
@@ -711,7 +711,7 @@ But if I'm driving, and you do this, and I'm back home, I come back and it's all
   {
     id: "call-erin-1",
     title: "Call with Erin Stumpf (Part 1)",
-    audioFile: "./Call-with-Erin-Stumpf-Part-1.m4a",
+    audioFile: "https://files.catbox.moe/891so3.m4a",
     duration: "8:52",
     durationSec: 532,
     participants: ["John (Ethica)", "Erin Stumpf (Agent)"],
